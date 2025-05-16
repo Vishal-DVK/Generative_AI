@@ -3,7 +3,7 @@ import google.generativeai as genai
 from PIL import Image
 
 # --- Configure Gemini API ---
-genai.configure(api_key="AIzaSyDB2RcnDWOlOVn4cHY1hbwpyZpwVTqE2A4")
+genai.configure(api_key="Enter your API key")
 model = genai.GenerativeModel('gemini-2.5-flash-preview-04-17')
 
 # --- Streamlit Page Setup ---
